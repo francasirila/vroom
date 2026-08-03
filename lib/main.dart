@@ -129,7 +129,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:vroom/screens/login_screen.dart';
+//import 'package:vroom/screens/home_screen.dart';
+//import 'package:vroom/screens/login_screen.dart';
+import 'package:vroom/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -142,7 +144,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return MaterialApp(
-      home: LoginScreen(),
+      home: HomeScreen(),
       theme : ThemeData(fontFamily: 'google-sans'),
       
     );
